@@ -1,0 +1,82 @@
+<html>
+<head>
+    <title>login dex</title>
+    
+<link rel ="stylesheet" href="cssfile.css">
+<style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #00000081;
+      border-radius: 10PX;
+    }
+    
+    li {
+      float: right;
+    }
+    
+    li a {
+      display: block;
+      color:white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    
+    li a:hover {
+      background-color:#ffffffb7;
+      color:#00000081 ;
+    }
+    </style>
+</head>
+<body>
+    
+    <!-- <nav class="navigation-bar"> -->
+      <div class="row">
+        <img class="logo" src="LOGODEX.jpg ">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">contact US</a></li>
+          </ul>
+          </div>
+    
+    </nav>
+<body>
+   
+    <div class ="login-page">
+        <div class="form">
+            <form class="register-form">
+                <input type = "text" placeholder="user name"/>
+                <input type="password" placeholder="password"/>
+                <input type="email" placeholder="email id"/>
+                <button>create</button>
+                <p class="message">already a member?<a href="#">log in</a></p>
+                </form>
+                <form class ="login-form">
+                    <input type="text" placeholder="username"/>
+                    <input type ="password" placeholder="password"/>
+                    <button>login</button>
+                    <p class="message">first time user?<a href="#">click here</a></p>
+
+                </form>
+                </div>
+                </div>
+                <script src ="jquery.js">
+                </script>
+                <script>
+                    $('.message a').click(function()
+                    {
+                     $('form').animate({height:"toggle",opacity:"toggle"},"slow");   
+                    });
+                    </script>
+                    
+                        
+                </body>
+
+</html>
